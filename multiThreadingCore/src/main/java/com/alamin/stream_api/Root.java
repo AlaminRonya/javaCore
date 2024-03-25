@@ -284,7 +284,7 @@ public class Root {
         );
         //Stream<T>.map(f1n) ==> Stream<List<R>>
 
-        System.out.println("one-to-many function");
+        System.out.println("one-to-many function:::");
         System.out.println(
                 numbers.stream()
                         .flatMap(e-> List.of(e-1, e+1).stream())
